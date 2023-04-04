@@ -1,0 +1,30 @@
+
+.menu{
+    padding-top: 31px;
+    padding-bottom: 21px;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            list-style-type: none;
+        }
+    }   
+    &__logo{
+        width: 87px;
+        height: 86px;
+
+    }
+    &__li{
+        display: flex;
+        justify-content: space-between;
+        &-right {
+            width: 329px;
+        } 
+        &-left {
+            width: 266px;
+           
+        } 
+    }    
+}

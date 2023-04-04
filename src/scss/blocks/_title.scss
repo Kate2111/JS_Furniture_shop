@@ -1,0 +1,15 @@
+.title {
+    font-size: 48px;
+    line-height: 58px;
+    &_fz18{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+        color: #323232;
+    }
+    &_fz16{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

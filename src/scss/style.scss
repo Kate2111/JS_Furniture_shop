@@ -1,1 +1,34 @@
-@import './base.scss';
+@font-face {
+    font-family: 'Tenos Sans';
+    font-display: swap;
+    src: url('../fonts/TenorSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Opan Sans';
+    font-display: swap;
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 230);
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+@import './blocks/title';
+@import './blocks/button';
+@import './blocks/menu';
+@import './blocks/preview';
+@import './blocks/brands';
+@import './blocks/production';
