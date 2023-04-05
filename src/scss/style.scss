@@ -1,15 +1,13 @@
 @font-face {
-    font-family: 'Tenos Sans';
-    font-display: swap;
-    src: url('../fonts/TenorSans-Regular.ttf') format('truetype');
+    font-family: 'Tenor Sans';
+    src: url('../fonts/TenorSans.woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Opan Sans';
-    font-display: swap;
-    src: url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.woff2');
     font-weight: 400;
     font-style: normal;
 }
@@ -18,11 +16,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     background-color: rgb(247, 247, 230);
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
-    width: 1160px;
+    width: 1180px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -32,3 +47,4 @@
 @import './blocks/preview';
 @import './blocks/brands';
 @import './blocks/production';
+@import './blocks/media';

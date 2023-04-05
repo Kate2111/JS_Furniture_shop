@@ -2,12 +2,11 @@
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     display: flex;   
-    &__img {
-        height: 774px;
-    }
+    height: 776px;
     &__info{
         width: 100%;
-        padding: 198px 0 222px 37px;
+        /* padding: 198px 0 222px 37px; */
+        padding: 13% 0 14% 3%;;
         &-title{
             margin: 17px 0 40px 0;
             width: 514px;

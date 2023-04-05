@@ -1,15 +1,12 @@
 
 .menu{
     padding-top: 31px;
-    padding-bottom: 21px;
+    padding-bottom: 15px;
     &__list {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        li {
-            list-style-type: none;
-        }
     }   
     &__logo{
         width: 87px;
