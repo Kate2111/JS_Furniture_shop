@@ -1,27 +1,27 @@
 
 .menu{
     padding-top: 31px;
-    padding-bottom: 15px;
+    padding-bottom: 21px;
     &__list {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
     }   
+    &__img{
+        justify-self: center;
+    }
     &__logo{
-        width: 87px;
-        height: 86px;
-
+        width: 100%;
     }
     &__li{
         display: flex;
-        justify-content: space-between;
-        &-right {
-            width: 329px;
-        } 
         &-left {
-            width: 266px;
-           
+            justify-content: flex-start;
+            column-gap: 82px;
+        } 
+        &-right {
+            justify-content: flex-end;
+            column-gap: 147px;
         } 
     }    
 }
