@@ -21,7 +21,6 @@
 body{
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 16px;
     background-color: rgb(247, 247, 230);
 }
 
@@ -47,6 +46,7 @@ img{
 
 @import './blocks/title';
 @import './blocks/button';
+@import './blocks/icons';
 @import './blocks/menu';
 @import './blocks/preview';
 @import './blocks/brands';

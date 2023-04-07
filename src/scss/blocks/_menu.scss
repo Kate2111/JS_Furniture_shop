@@ -6,6 +6,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
+        min-height: 25px;
     }   
     &__img{
         justify-self: center;
@@ -13,7 +14,7 @@
     &__logo{
         width: 100%;
     }
-    &__li{
+    &__item{
         display: flex;
         &-left {
             justify-content: flex-start;
