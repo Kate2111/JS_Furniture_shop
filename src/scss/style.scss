@@ -44,6 +44,10 @@ img{
     margin: 0 auto;
 }
 
+h1{
+    display: none;
+}
+
 @import './blocks/title';
 @import './blocks/button';
 @import './blocks/icons';

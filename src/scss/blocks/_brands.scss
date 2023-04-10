@@ -1,11 +1,12 @@
 .brands{
     &__wrapper{
-        padding-top: 160px;
+        padding-top: 13.8%;
     }
     &__skills{
-        margin-top: 100px;
+        margin-top: 8.65%;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap; 
     }
     &__skill{
         display: flex;
