@@ -9,9 +9,16 @@
         line-height: 1.5;
         color: #323232;
     }
+    &_fz24
+    {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
     &_fz48{
         font-family: 'Tenor Sans';
         font-size: 48px;
         line-height: 1.2;
+        color: #57463A;
     }
 }

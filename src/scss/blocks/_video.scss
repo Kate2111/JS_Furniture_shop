@@ -1,0 +1,20 @@
+.video{
+    &__title {
+        padding-top: 13.8%;
+        margin-bottom: 8.6%;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+    &__content{
+        background-image: url(../../img/promo/video_youtube.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+

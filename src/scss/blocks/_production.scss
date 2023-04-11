@@ -1,26 +1,29 @@
 .production{
-    padding-top: 13.8%;
-        &__wrapper {
+    &__inner{
+        padding-top: 13.8%;
+    }
+    
+    &__wrapper {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 250px);
         margin-top: 8.65%;
         justify-items: center;
         align-items: center;
+        border: solid 0.5px #000000;     
+    }
+    &__item{
+        display: grid;
+        justify-self: stretch;
+        align-self: stretch;
         border: solid 0.5px #000000;
-        dl{
-            display: grid;
-            justify-self: stretch;
-            align-self: stretch;
-            border: solid 0.5px #000000;
-            dt{
-                margin-bottom: 20px;
-                justify-self: center;
-                align-self: end;
-            }
-            dd{
-                text-align: center;
-            }
-        }
+    }
+    &__img{
+        margin-bottom: 20px;
+        justify-self: center;
+        align-self: end;
+    }
+    &__descr{
+        text-align: center;
     }
 }

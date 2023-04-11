@@ -1,0 +1,33 @@
+.family-workshop{
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__title{
+        padding-top: 13.8%;
+        margin-bottom: 8.6%;
+    }
+
+    &__image{
+        justify-self: stretch;
+    }
+
+    &__info{
+        background-color: #EBEEEB;
+        padding: 9.5% 2% 7% 5.5%;
+    }
+
+    &__subtitle {
+        margin-bottom: 40px;
+        width: 515px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__button{
+        margin-top: 52px;
+    }
+}
