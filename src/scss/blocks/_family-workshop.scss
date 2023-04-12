@@ -2,6 +2,10 @@
     &__wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        position: relative;
+        width: 1440px;
+        height: 475px;
+        margin: 0 auto;
     }
 
     &__title{
@@ -10,17 +14,25 @@
     }
 
     &__image{
-        justify-self: stretch;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background-image: url(../../img/promo/family.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
     }
 
     &__info{
         background-color: #EBEEEB;
         padding: 9.5% 2% 7% 5.5%;
+        grid-column: 2;
     }
 
     &__subtitle {
         margin-bottom: 40px;
-        width: 515px;
+        width: 77%;
     }
 
     &__text {

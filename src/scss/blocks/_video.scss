@@ -3,18 +3,47 @@
         padding-top: 13.8%;
         margin-bottom: 8.6%;
     }
-    &__wrapper{
+    &__wrapper-video{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
         max-width: 1160px;
         margin: 0 auto;
-    }
-    &__content{
-        background-image: url(../../img/promo/video_youtube.png);
+        padding-top: 56.25%;
+        background-image: url(../../img/promo/video_youtube.png), url(../../icons/promo/youtube.png);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
+        position: relative;        
+    }
+
+    &__button{
+        background-image: url(../../icons/promo/youtube.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 6%;
+        height: 10%;
+        top: 45%;
+        
+    }
+
+
+    &__content{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
 
 
+.video__button:hover{
+    width: 7%;
+    height: 11%;
+}
