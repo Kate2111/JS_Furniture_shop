@@ -10,6 +10,12 @@
             width: 100%;
         }
     }
+
+    .services{
+        &__wrapper{
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -57,6 +63,17 @@
             line-height: 1;
         }
     }
+
+    .services{
+        &__wrapper {
+            grid-template-rows: repeat(2,500px);
+        }
+        
+        &__info {
+            padding-top: 15%;
+        }
+    }
+    
 }
 
 @media (max-width: 960px) {
@@ -65,6 +82,9 @@
             font-size: 40px;
             line-height: 1;
         }
+    }
+    .services__info {
+        padding-right: 7.5%;
     }
 }
 
@@ -91,7 +111,6 @@
             gap: 40px;
         }
     }
-    
 }
 
 @media (max-width: 769px) {
@@ -137,6 +156,35 @@
         &__info{
             grid-row: 2;
             background-color: inherit;
+        }
+    }
+
+    .services{
+        &__wrapper {
+            grid-template-rows: repeat(4, 500px);
+            grid-template-columns: auto;
+            height: 100%;
+        }
+        &__order{
+            grid-row: 1/2;
+            width: 100%;
+        }
+
+        &__master-classes{
+            grid-row: 3/4;
+            width: 100%;
+        }
+
+        &__info{
+            padding-top: 100px;
+        }
+
+        &__info-order{
+            grid-row: 2/3;
+        }
+
+        &__info-master-classes{
+            grid-row: 4/5;
         }
     }
     
@@ -205,6 +253,7 @@
     .brands {
         &__wrapper{
             padding-top: 30%;
+            padding-bottom: 30%;
         }
         &__brand{
             width: 280px;
@@ -222,17 +271,15 @@
         grid-template-rows: repeat(4,205px);
         }
         &__inner {
-            padding-top: 30%;
+            padding-bottom: 30%;
         }
     }
 
     .family-workshop {
         &__title {
-            padding-top: 30%;
             margin-bottom: 20%;
         }
         &__subtitle {
-            /* width: 310px; */
             margin-bottom: 8px;
         }
         &__info {
@@ -249,6 +296,16 @@
             margin-bottom: 20%;
         }
     }
+
+    .services{
+        &__wrapper {
+            grid-template-rows: 357px 620px 357px 620px;
+        }
+        &__title {
+            padding-top: 30%;
+            margin-bottom: 20%;
+        }
+    }    
 
     .title {
         &_fz48{
@@ -270,6 +327,18 @@
     .family-workshop {
         &__wrapper {
             grid-template-rows: 253px 1fr;
+        }
+    }
+
+    .services{
+        &__wrapper {
+        grid-template-rows: 279px 621px 279px 621px;
+        }
+        &__info {
+            padding-right: 10%;
+        }
+        &__text {
+            margin-bottom: 20%
         }
     }
 }
@@ -294,4 +363,18 @@
             line-height: 1.2;
         }
     }
+
+    .services {
+        &__wrapper {
+            grid-template-rows: 240px 550px 240px 550px;
+        }
+        &__info {
+            padding-top: 80px;
+        }
+        &__text {
+            margin-bottom: 15%;
+        }
+    }
+    
+   
 } 
