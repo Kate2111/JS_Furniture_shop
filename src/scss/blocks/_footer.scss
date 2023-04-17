@@ -1,0 +1,31 @@
+.footer{
+    background-color: #715B4B;
+    height: 380px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        color: #F6F6F6;
+        flex-wrap: wrap;
+        padding-top: 84px;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 52px;
+    }
+    &__messages{
+        width: 192px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    &__icon{
+        border-color: #F6F6F6;
+        width: 52px;
+        height: 52px;
+        
+    }
+}
+

@@ -1,0 +1,40 @@
+
+.guarantee__border-bold {
+    margin-top: 17.2%;
+    margin-bottom: 17.2%;
+    border: 7px solid #A1B29F;
+    height: 590px;
+    padding: 5px;
+}
+.guarantee__border-thin {
+    border: 1px solid #715B4B;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 95px 118px 179px 95px;
+    position: relative;
+}
+
+.guarantee__title {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    top: 95px;
+    margin: 0;
+}
+
+.guarantee__info {
+    margin-top: 181px;
+    font-weight: 300;
+    color: #000000;   
+}
+
+.guarantee__image {
+    position: absolute;
+    bottom: 38px;
+    right: 63px;
+    width: 155px;
+    height: 155px;
+}

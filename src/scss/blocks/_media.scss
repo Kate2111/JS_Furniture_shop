@@ -50,6 +50,13 @@
 
         }
     }
+
+    .footer__wrapper {
+        flex-direction: column;
+        height: 235px;
+        gap: 25px;
+        align-items:start;
+    }
 }
 
 @media (max-width: 1025px) {
@@ -187,6 +194,30 @@
             grid-row: 4/5;
         }
     }
+
+    .guarantee__border-bold {
+        height: 700px; 
+    }
+
+    .guarantee__border-thin {
+        padding: 95px 20px 42px 20px;
+    }
+
+    .guarantee__info {
+        margin-top: 0px;
+    }
+
+    .footer{
+        height: 690px;
+        &__wrapper {
+            flex-direction: column-reverse;
+            height: 580px;
+            padding-top: 40px;
+        }
+        &__messages{
+            height: 163px;
+        }
+    }
     
     .title {
         &_fz48 {
@@ -210,6 +241,15 @@
     }
     .family-workshop__wrapper {
         grid-template-rows: 326px 1fr;
+    }
+
+    .guarantee {
+        &__border-bold {
+        height: 800px;
+        }
+        &__title {
+            width: 80%;
+        }
     }
 }
 
@@ -307,6 +347,33 @@
         }
     }    
 
+    .guarantee{
+        &__border-bold {
+            height: 425px;
+            margin-top: 294px;
+        }
+        &__border-thin {
+            padding: 91px 5px 41px 14px;
+            justify-content: flex-start;
+        }
+        &__title {
+            width: 348px;
+            top: -200px;
+            text-align: left;
+        }
+
+        &__info{
+            font-size: 16px;
+        }
+
+        &__image {
+            bottom: 64px;
+            right: 7px;
+            width: 68px;
+            height: 68px;
+        }
+    }
+
     .title {
         &_fz48{
             font-size: 32px;
@@ -376,5 +443,24 @@
         }
     }
     
-   
+    .guarantee{
+        &__border-bold {
+            height: 425px;
+            margin-top: 230px;
+        }
+        &__border-thin {
+            padding: 65px 5px 41px 14px;
+        }
+        &__title {
+            width: 260px;
+            font-size: 28px;
+            top: -150px;
+        }
+        &__info{
+            font-size: 16px;
+        }
+        &__image {
+            bottom: 40px;
+        }
+    }
 } 
