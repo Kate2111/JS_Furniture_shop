@@ -1,0 +1,33 @@
+
+.main-mk__wrapper {
+    background-image: url(../../img/master_class/main_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 7.2% 0;
+    height: 601px;
+    margin: 0 auto;
+}
+
+.main-mk__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14.15%;
+}
+
+.main-mk__title {
+    color: #F6F6F6;
+    margin-bottom: 8.4%;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+.main-mk__button {
+    width: 328px;
+    height: 60px;
+    background: #F6F6F6;
+    font-weight: 700;
+    color: #4C6D77;
+}

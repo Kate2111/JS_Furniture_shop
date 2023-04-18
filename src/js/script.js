@@ -15,6 +15,4 @@ window.addEventListener('DOMContentLoaded', function() {
         this.insertAdjacentHTML('afterend', videoLink);
         this.removeEventListener('click', playVideo);
     }
-
-
 })

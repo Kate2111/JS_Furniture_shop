@@ -1,0 +1,45 @@
+.our-work__title {
+    padding-top: 160px;
+}
+.our-work__wrapper {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.our-work__wrapper-active{
+    display: grid;
+}
+
+.our-work__presentation {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    gap: 40px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.our-work__arrow{
+    width: 50%;
+    opacity: 0.6;
+    transform: translateY(-50%);
+}
+
+
+.our-work__arrow-prev {
+    justify-self: end;
+}
+
+.our-work__image{
+    display: grid;
+    justify-items: stretch;
+}
+
+.our-work__text{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+
+
